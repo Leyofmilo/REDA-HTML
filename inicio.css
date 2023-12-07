@@ -5,6 +5,7 @@
 .fondo {
    background-color: #ADB7E9;
    background-image: linear-gradient(to right, #6F83F3, #bddef1);
+   font-family: 'Exo 2', sans-serif;
 }
 
 .titulo {
@@ -82,13 +83,13 @@ img img {
 .h31 {
     font-family: 'Exo 2', sans-serif;
     padding: 5px 80px;
-    font-size: 25px;
+    font-size: 15px;
     color: black;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     z-index: 1;
-    position: static;
+    position: relative;
     padding-top: 20px;
     text-align: left;
     width: 10%;
@@ -236,3 +237,30 @@ font-size: 18px;
 .contenedor main p {
     padding: 10px;
 }
+.ajustar {
+    align-items: center;
+}
+main {
+    position: relative;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+.texto-superpuesto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    max-width: 800px; 
+    padding: 20px;
+}
+.texto1 {
+    font-size: 35px;
+    color: #000;
+    padding: 0px 80px 0px 80px;
+}
+

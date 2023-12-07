@@ -136,3 +136,6 @@ main iframe {
 .recursos .recurso {
     margin-bottom: 20px; /* Ajuste de margen inferior */
 }
+.letra {
+    font-family: 'Exo 2', sans-serif;
+}
