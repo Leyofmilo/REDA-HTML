@@ -204,22 +204,21 @@ font-size: 18px;
     color: rgb(66, 129, 189);
     font-size: 20px;
 }
+/* Estilo para las imágenes del aside */
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+  }
+  
   .imgta {
-    padding: 10px;
-    width: 50%;
-    height: 438px;
-    display: flex;
-    margin: 0 auto; 
-    text-align: left; 
-}
-.imgta2 {
-    padding: 10px;
-    width: 50%;
-    height: 438px;
-    display: flex;
-    margin: 0 auto; 
-    text-align: left; 
-}
+    width: 80%;
+    height: auto; 
+    margin-bottom: 20px;  
+  }
+  
 .contenedor {
     display: flex;
 }
