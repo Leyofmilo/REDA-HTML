@@ -1,11 +1,16 @@
 * {
     margin: 0px;
 }
+.fondo {
+    background-color: #ADB7E9;
+    background-image: linear-gradient(to right, #6F83F3, #bddef1);
+    font-family: 'Exo 2', sans-serif;
+ }
 .titulo {
     font-family: 'Exo 2', sans-serif;
     padding: 5px 80px;
     font-size: 60px;
-    color: green;
+    color: #24467E;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-weight: bold;
@@ -24,7 +29,7 @@
 
 .elemento:hover {
     font-family: 'Exo 2', sans-serif;
-     color: green;
+     color: #24467E;
 }
 .navegacion {
     background-color: #d6dadd;
@@ -46,7 +51,7 @@
     position: left;
     flex: 1.2;
     font-family: 'Exo 2', sans-serif;
-    color: green;
+    color: #24467E;
 }
 .logo {
     margin-right: 1px;
